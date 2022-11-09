@@ -1,0 +1,6 @@
+<template>
+    <template for:each={items} for:item="i">
+        <div key={i}>{i}</div>
+    </template>
+    <lightning-button onclick={updateItems} label="update"></lightning-button>
+</template>
